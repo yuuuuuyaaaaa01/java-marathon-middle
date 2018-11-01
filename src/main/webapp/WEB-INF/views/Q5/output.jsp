@@ -14,7 +14,9 @@
 		<p>発足</p>
 		<c:out value="${baseballTeam.inauguration}"/><br>
 		<p>歴史</p>
-		<c:out value="${baseballTeam.history}"/><br>
-		<a href="/index/index">戻る</a>
+		<pre>
+		<c:out value="${baseballTeam.history}"/>
+		</pre>
+		<a href="${pageContext.request.contextPath}/index/index">戻る</a>
 </body>
 </html>

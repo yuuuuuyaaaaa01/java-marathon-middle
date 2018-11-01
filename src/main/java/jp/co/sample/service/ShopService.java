@@ -8,6 +8,12 @@ import org.springframework.stereotype.Service;
 import jp.co.sample.domain.Shop;
 import jp.co.sample.repository.ShopRepository;
 
+/**
+ * 検索を実施する repository の Searchメソッドを呼ぶ.
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 @Service
 public class ShopService {
 	@Autowired

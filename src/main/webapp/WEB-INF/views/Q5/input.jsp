@@ -9,7 +9,7 @@
 <body>
 	<p>プロ野球セントラルリーグ一覧</p>
 	<c:forEach var="baseballTeams" items="${baseballTeams}" varStatus="status">
-		<a href="/index/output?id=${baseballTeams.id}"><c:out value="${baseballTeams.teamName}"/></a><br>
+		<a href="${pageContext.request.contextPath}/index/output?id=${baseballTeams.id}"><c:out value="${baseballTeams.teamName}"/></a><br>
 	</c:forEach>
 	
 </body>

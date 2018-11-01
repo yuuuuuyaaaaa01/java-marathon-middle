@@ -3,7 +3,7 @@ package jp.co.sample.domain;
 
 
 /**
- * ベースボールチームを表すドメイン
+ * ベースボールチームを表すドメイン.
  * 
  * @author yuya.nishikiori
  *

@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import jp.co.sample.domain.BaseballTeam;
 
+
 /**
  * @author yuya.nishikiori
  *
@@ -34,8 +35,6 @@ public class BaseballRepository {
 		return baseballteam;
 		
 	};
-	
-	
 	
 	
 	/**

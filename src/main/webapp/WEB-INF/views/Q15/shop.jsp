@@ -11,7 +11,7 @@
 		<p>洋服shop</p>
 		<p>好きな色を選択してください</p>
 		
-		<form action="/shop/answer" method="POST">
+		<form action="${pageContext.request.contextPath}/shop/answer" method="POST">
 		<input type="radio" name="gender" value="1">男
 		<input type="radio" name="gender" value="0">女
 		<select name="color">
@@ -22,6 +22,7 @@
 		</select>
 		<input type="submit" value="検索">
 		</form>
+		
 		
 		
 			<c:forEach var="shop" items="${shops}" varStatus="status">
@@ -39,7 +40,7 @@
 					<td><c:out value="${shop.price}" /></td>
 				</tr>
 			</table>	
-	</c:forEach>
+			</c:forEach>
 		
 		
 		

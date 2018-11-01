@@ -1,14 +1,41 @@
 package jp.co.sample.domain;
 
 
-public class Shop {
+/**
+ * shopのオブジェクト
+ * 
+ * @author yuya.nishikiori
+ *
+ */
+public class Shop{
 	
+	/**
+	 * 　id 
+	 */
 	private Integer id;
+	/**
+	 *　カテゴリー
+	 */
 	private String category;
+	/**
+	 * 　ジャンル
+	 */
 	private String genre;
+	/**
+	 * 　性別
+	 */
 	private Integer gender;
+	/**
+	 * 色
+	 */
 	private String color;
+	/**
+	 * 　値段
+	 */
 	private Integer price;
+	/**
+	 * サイズ
+	 */
 	private String size;
 	
 	

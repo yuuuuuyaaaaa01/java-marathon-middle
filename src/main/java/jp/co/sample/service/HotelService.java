@@ -8,6 +8,12 @@ import org.springframework.stereotype.Service;
 import jp.co.sample.domain.Hotel;
 import jp.co.sample.repository.HotelRepository;
 
+/**
+ * リポジトリのfindPriceを呼び出す
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 @Service
 public class HotelService {
 

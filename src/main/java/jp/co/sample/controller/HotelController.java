@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import jp.co.sample.domain.Hotel;
 import jp.co.sample.service.HotelService;
 
+/**
+ * 検索された金額で検索をかけ、結果を返す.
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 @Controller
 @RequestMapping("/Hotel")
 public class HotelController {

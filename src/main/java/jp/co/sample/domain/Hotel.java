@@ -1,5 +1,11 @@
 package jp.co.sample.domain;
 
+/**
+ * Hotelのオブジェクト.
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 public class Hotel {
 	private Integer id;
 	private String areaName;

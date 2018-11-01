@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import jp.co.sample.domain.BaseballTeam;
 import jp.co.sample.repository.BaseballRepository;
-import jp.co.sample.repository.HotelRepository;
 
 /**
  * @author yuya.nishikiori

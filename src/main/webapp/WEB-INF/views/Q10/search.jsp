@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-		<form action="/Hotel/searchAnswer" method="POST">
+		<form action="${pageContext.request.contextPath}/Hotel/searchAnswer" method="POST">
 			<p>ホテル検索</p>
 			<p>一泊料金<input type="text" name="price">円以下</p>
 			<input type="submit" value="検索">

@@ -11,7 +11,7 @@ import jp.co.sample.domain.BaseballTeam;
 import jp.co.sample.service.BaseballTeamService;
 
 /**
- * スタート画面
+ * スタート画面.
  * 
  * @author yuya.nishikiori
  *
@@ -25,7 +25,7 @@ public class IndexController {
 	
 	
 	/**
-	 * DBの一覧を取得し、初期画面へ
+	 * DBの一覧を取得し、初期画面へ.
 	 * 
 	 * @param model
 	 * @return
@@ -39,7 +39,7 @@ public class IndexController {
 	}
 	
 	/**
-	 * クリックされたら、id を受け取り、そのid の情報を表示
+	 * クリックされたら、id を受け取り、そのid の情報を表示.
 	 * 
 	 * @param id
 	 * @param model　チームの１件の情報をリクエストスコープに格納

@@ -9,9 +9,14 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.stereotype.Repository;
 
-import jp.co.sample.domain.BaseballTeam;
 import jp.co.sample.domain.Shop;
 
+/**
+ * 性別と色に応じた検索結果を、DBから取得する.
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 @Repository
 public class ShopRepository {
 	@Autowired
@@ -43,6 +48,13 @@ public class ShopRepository {
 	
 	
 	
+	
+	/**
+	 * 
+	 * @param gender 性別
+	 * @param color　色
+	 * @return　性別と色で検索をかけ、対象の商品を返却する.
+	 */
 	public List<Shop> Search(Integer gender,String color){
 		String sql = "select * from shops where gender=:gender AND color=:color;";
 		
@@ -50,8 +62,8 @@ public class ShopRepository {
 		
 		List<Shop> shops = template.query(sql, param,Shop_ROW_MAPPER);
 			
-		System.out.println("gender = " + gender);
-		System.out.println("color = " + color);
+		//System.out.println("gender = " + gender);
+		//System.out.println("color = " + color);
 		for(Shop shop : shops) {
 			System.out.println(shop);
 		}

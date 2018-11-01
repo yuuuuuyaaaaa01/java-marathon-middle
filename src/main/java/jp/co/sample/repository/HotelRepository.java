@@ -12,6 +12,12 @@ import org.springframework.stereotype.Repository;
 
 import jp.co.sample.domain.Hotel;
 
+/**
+ * submitされた金額以下の条件で、sqlを発行して、結果を返す.
+ * 
+ * @author yuya.nishikiori
+ *
+ */
 @Repository
 public class HotelRepository {
 	@Autowired
